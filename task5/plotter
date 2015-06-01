@@ -1,0 +1,5 @@
+set terminal png
+set output "u.png"
+plot "results_of_task5" using 1:2 title "Re(u)" with lines, \
+"results_of_task5" using 1:3 title "Im(u)" with lines, \
+"results_of_task5" using 1:4 title "u*exp(i*omega*T)" with lines

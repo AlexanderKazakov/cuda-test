@@ -1,0 +1,6 @@
+reset
+set term jpeg
+set output "performancePlot.jpeg" 
+set xlabel "lg(numElems)"
+set ylabel "GFLOPs"
+plot "performanceData.txt" using 1:2 with points 
